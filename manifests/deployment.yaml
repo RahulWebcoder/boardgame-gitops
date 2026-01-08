@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boardgame
+  labels:
+    app: boardgame
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: boardgame
+  template:
+    metadata:
+      labels:
+        app: boardgame
+    spec:
+      containers:
+        - name: boardgame
+          image: 820198200129.dkr.ecr.us-east-1.amazonaws.com/boardgame:PLACEHOLDER
+          ports:
+            - containerPort: 8080
