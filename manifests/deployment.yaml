@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: 820198200129.dkr.ecr.us-east-1.amazonaws.com/boardgame:PLACEHOLDER
+          image: 820198200129.dkr.ecr.us-east-1.amazonaws.com/boardgame:f5016816bd0f832ec0f1bb494e6a4da493a1a0c3
           ports:
             - containerPort: 8080
