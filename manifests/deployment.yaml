@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: 820198200129.dkr.ecr.us-east-1.amazonaws.com/boardgame:acfaf277b28e1d144b3a850692213003c640d9ca
+          image: 820198200129.dkr.ecr.us-east-1.amazonaws.com/boardgame:4ef752ed204c4f0b7e8d1da25595a478952534e2
           ports:
             - containerPort: 8080
